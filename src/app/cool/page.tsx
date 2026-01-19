@@ -13,7 +13,6 @@ export default function CoolPage() {
         enjoy slowly shaping something physical from scratch. Also a fun fact about me 
         is I recently went skydiving and it was one of the best experiences of my life!
       </p>
-
       </div>
   );
 }

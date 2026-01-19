@@ -67,10 +67,6 @@ export async function GET(request: Request) {
       status: d.status,
     }));
 
-    // return new Response(JSON.stringify(paginatedRequests), {
-    //   status: 200,
-    //   headers: { "Content-Type": "application/json" },
-    // });
 
     const totalRecords = await collection.countDocuments(filter);
 
